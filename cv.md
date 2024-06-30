@@ -27,3 +27,8 @@ function firstNonRepeatingLetter(s) {
   }
   return result;
 }
+
+## Мови
+- Українська (native)
+- Англійська (B1)
+- Російська (С1)
