@@ -1,2 +1,2 @@
 # rsschool-cv
-my first cv in rsSchool
+my first CV in rsSchool
