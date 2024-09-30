@@ -1,0 +1,204 @@
+/* reset css */
+*/ html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* verstka */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+li {
+    padding: 15px 15px;
+}
+
+.wrapper {
+    max-width: 1480px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 50px 50px;
+    background-color: #5c8e8f;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.face img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+.information {
+    padding-right: 250px;
+    font-size: 45px;
+    color: white;
+}
+
+h1 span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.footer {
+    padding: 10px 50px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: #5c8e8f;
+    color: white;
+}
+
+.footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer span {
+    display: block;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.rs-icon {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.git-icon {
+    width: 55px;
+    border-radius: 50%;
+}
